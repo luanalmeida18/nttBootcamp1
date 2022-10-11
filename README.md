@@ -13,7 +13,7 @@
         <p>
             Linguagem de Marcação de Hipertexto (HTML) é uma linguagem que compõe a maior parte de páginas da internet e aplicativos online.
             Hypertexto - é um texto usado para fazer referência a um outro texto.
-            Linguagem de Marcação - é uma linguagem usada para definir marcações que levam aos servidores informações sobre estilo e estrutura de um documento (página).
+            Linguagem de Marcação - é uma linguagem usada para definir marcações que levam aos servidores informações sobre estilo e estrutura de um documento (página). <br />
             
             O HTML não é considerado uma linguagem de programação pois ele não consegue criar funcionalidades dinâmicas. O que de fato ele faz é
             estruturar uma página por meio de seções, tags, parágrafos, atributos e links por meio de elementos.
