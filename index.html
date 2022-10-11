@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução a HTML</title>
+</head>
+<body>
+    <div>
+        <h1 style="text-transform: uppercase;">Linguagem de Marcação de Hipertexto (HTML)</h1>
+        <hr>
+        <h2>Estrutura Básica HTML</h2> 
+        <p>
+            Linguagem de Marcação de Hipertexto (HTML) é uma linguagem que compõe a maior parte de páginas da internet e aplicativos online.
+            Hypertexto - é um texto usado para fazer referência a um outro texto.
+            Linguagem de Marcação - é uma linguagem usada para definir marcações que levam aos servidores informações sobre estilo e estrutura de um documento (página).
+            
+            O HTML não é considerado uma linguagem de programação pois ele não consegue criar funcionalidades dinâmicas. O que de fato ele faz é
+            estruturar uma página por meio de seções, tags, parágrafos, atributos e links por meio de elementos.
+        </p>
+        <img src="img/estruturahtml.jpg" alt="Estrutura HTML" width="30%" style="margin: 0 35%;">    
+    </div>
+
+    <div>
+        <h1>Tags</h1>
+        <h2>Utilização</h2>
+        
+        <p>
+            Tags são utilizadas para informar ao navegador qual o tipo de estrutura que esta sendo construída, podendo ser títulos, parágrafos, imagens, links e outras.
+            Normalmente as tags possuem a tag de abertura e também a de fechamento, para que o navegador entenda que a partir dessa tags será executado tal formatação
+            no conteúdo que ficam entre elas. Porém possuem tags que não necessitam de fechamento, pois em si ela ja é um campo que se fecha sozinho.
+        </p>
+        <h2>Algumas Tags..</h2>
+        <p>
+            <b>h1 - h6</b> - são partes escritas com fontes maiores, sendo elas o h1 como maior e o h6 o menor. <br />
+             <img src="img/h1-h6.png" alt="h1 até h6" width="20%">
+            
+             <br >
+            
+            <b>p</b> - para identificar um parágrafo. <br />
+            
+            <b>img</b> - declara que neste local será apresentado ao usuário alguma imagem. <br />
+            
+            <blockquote>
+                <b>blockquote</b> - uma sitação/observação sobre dado assunto, que fará com que o texte entre ela fique formatado de outra forma, com um 
+            espaçamento no inicio dele, sendo fora do texto em si. 
+            </blockquote>
+
+            <br />
+            
+            <b>i</b> - indica que o conteúdo ficará <i>itálico</i>. <br />
+            
+            <b>strong</b> - indica que o conteúdo ficará <strong>negrito</strong> <br />
+            
+            <b>u</b> - indica que o conteúdo ficará com <u>underline</u> - linha na parte inferior do texto. <br />
+            
+            <b>mark</b> - fará uma <mark>marcação</mark> no texto. Normalmente com cor amarela. <br />
+            
+            
+            
+            <b>ul</b> - são listas não ordenadas. Que não possuem uma ordem de apresentação, normalmente identificadas com marcadores em seus início, não diferenciando
+            os ítens da linha, mantendo-se padrão em todos os itens. <br />
+            <b>ol</b> - listas ordenadas. Possuem uma ordem de apresentação, normalmente com números, podendo ser alteradas.
+            <blockquote>
+                Necessitam-se de tags filhas para uma correta aplicação. Normalmente utilizada a tag <i>li</i> - que são ítens da lista. Apresentados por linhas. <br />
+            </blockquote>
+            
+            
+            <b>a</b> - tag para dar referência a um link (ligação) entre páginas. O navegador identifica o ítem dentro desta tag como um meio de ligação a 
+            um outro local específicado. Podendo ser ele feito na mesma aba do navegador, fazendo com que saia da página atual e abra a nova; ou então
+            abrindo uma nova aba, permanecendo na página atual e abrindo uma nova aba com a o página nova, utilizando o atributo "target="_blank". <br />
+        
+        </p>
+    </div> 
+
+    <div>
+        <h1>Atributos das tags</h1>
+        <h2>O que são</h2>
+        <p>
+            Atributos HTML são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do elemento. São informações passadas nas tags para que elas executam o resultado esperado. Como modificadores de elementos HTML, utilizados para identificar, 
+            informar e indicar o tipo de um campo.
+        </p>
+    </div>
+
+
+</body>
+</html>
